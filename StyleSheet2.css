@@ -1,0 +1,397 @@
+
+body {
+    background-image: url('grad800.png');
+    background-repeat: repeat-x;
+    background-color: white;
+}
+button {
+    border-radius: 10px;
+    background-color: #F9FFB6;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.fontL {
+    *-webkit-appearance: menulist-button;
+    font-size: 16px;
+    text-align: right;
+    width:200px;
+}
+.acList {
+    display:inline-block;
+    width:100px;
+}
+.taxW {
+    margin-left: 5px;
+    width:100px;
+}
+.Quick {
+    font-size 10px;
+    font-family: sans-serif;
+    color:wheat;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
+    
+}
+.Quick:hover {
+    color:yellow;
+}
+.Quickselected {
+    color:white;
+}
+.fontM {
+    font-size: 16px;
+    text-align: center;
+}
+.bup {
+    width:90px;
+    padding:0px;
+    margin:0px;
+}
+.radio {
+    display:inline-block;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+    font-family:sans-serif;
+}
+.backup {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float:right;
+}
+.row, .actionrow, .imported, .accountTotal, .taxrow, .taxdatarow, .errorrow {	
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 1400px;
+}
+.actionrow {
+    background-color: #BFD0D0;
+    height: 35px;
+    padding-top:5px;
+}
+.imported {
+    background-color: #DFD0AF;
+}
+.accountTotal {
+    background-color: #80AFBF;
+    color: white;
+    height : 30px;
+    border-bottom: 1px solid white;
+}
+.dateCell, .refCell, .amountCell, .allocCell, .allocCellHeader, .commCell, .balCell, .checkCell, .cashDateCell, .cashAmountCell {
+	text-align: right;
+	display:inline-block;
+    border-right: 1px solid black;
+    padding: 3px 3px 1px 1px;
+    margin: 0 0 0 0;
+    vertical-align:top;
+}
+.dateCell {
+	width: 98px;
+}
+.cashDateCell {
+	width: 110px;
+}
+.date {
+    text-align: right;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-top: -2px;
+    width: 108px;
+}
+.refCell {
+    width: 43px;	
+}
+.amountCell {
+	width: 130px;
+}
+.cashAmountCell {
+	width: 135px;
+}
+.allocCell {
+	width: 428px;
+    padding: 0px 0px 0px 0px;
+}
+.allocCellHeader {
+	width: 424px;
+    padding: 3px 3px 1px 1px;
+}
+.cashallocCellHeader {
+	width: 424px;
+    padding: 3px 3px 1px 1px;
+	text-align: left;
+}
+.commCell {
+	width: 413px;
+	text-align: left;
+}
+.balCell {
+	width: 120px;
+}
+.checkCell {
+	width: 130px;
+	border-right: none;
+    border-left: none;
+}
+.CdateCell, .CrefCell, .CamountCell, .CallocCell, .CcommCell, .taxDateHead, .taxAmountHead {	
+	text-align: right;
+	display:inline-block;
+    border-right: black solid 1px;
+    padding: 3px 3px 1px 1px;
+    margin: 0 0 0 0;
+    vertical-align:top;
+}
+.noborder {
+	border:none;
+}
+.CreallocateCell{
+	display:inline-block;
+    padding: 1px 3px 1px 1px;
+    margin: 0 0 0 0;
+    vertical-align:top;
+    text-align:left;
+    vertical-align:bottom;
+    color:#C0C0CF;
+    width:275px;
+}
+.CdateCell {
+	width:100px;
+	padding-left: 5px;
+}
+.CrefCell {
+	width: 45px;
+}
+.CamountCell {
+	width: 110px;
+}
+.CallocCell {
+	width: 150px;
+	text-align:left;
+	padding-left:25px;
+}
+.CcommCell {
+	width: 520px;
+	text-align:left;
+}
+.hidden {
+	display:none;
+}
+.contra {
+	width:auto;
+	border-top:black 1px solid;
+	height: 22px;
+	padding: 3px 1px 1px 1px;
+}
+.rowcontainer {
+	width: 1400px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.currency {
+    text-align:right;
+    font-size:16px;
+    width:105px;
+    margin-top:-2px;
+}
+.fcurr {
+    float:right;
+    padding-right: 10px;
+}
+.comments {
+	width:410px;
+}
+.floatLeft {
+	float:left;
+}
+.down2 {
+	margin-top:2px
+}
+.dropdiv {
+    width:275px;
+    text-align:right;
+    float:right;
+    padding-right:5px;
+}
+.gdropdiv {
+	float:left;
+}
+.fdropdiv {
+    width:130px;
+    text-align:right;
+    float:right;
+    padding-right: 10px;
+}
+.grey {
+    color:#D3D3D3;
+}
+.grey2 {
+    color:gray;
+}
+.notincluded {
+	background-color:gray;
+}
+#showLines {
+    overflow:scroll;
+    height:700px;
+}
+#range {
+    font-family: sans-serif;
+    width:180px;
+    height:30px;
+    border: 1px solid black;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#errormessage {
+    padding-left:10px;
+    padding-right:30px;
+    color:red;
+}
+.taxDateHead {
+	width:150px;
+	padding-left: 5px;
+	border-right: none;
+}
+.taxAmountHead {
+	width: 150px;
+	border-right:none;
+	font-size: 20px;
+}
+.taxrow {
+	background-color: #FFE8D8;
+	color: #00366E;
+	font-size: 18px;
+	height: 40px;
+	vertical-align: middle;
+	
+}
+.floatright {
+	float:right;
+}
+.minmax {
+    font-size:12px;
+    margin:2px;
+    font-family: sans-serif;
+}
+.howmany {
+}
+.downabit {
+	margin-top:7px;
+}
+.fontS{
+	font-size:12px;
+}
+.CSelect {
+	border: #DFDFE0 solid 1px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 2px #DFDFE0;
+	padding:1px 3px 1px 3px;
+	font-family:Arial;
+	position:fixed;
+	background-color: white;
+}
+.selectContainer{	
+	overflow:scroll;
+	height:130px;
+}
+.SelectedItem {
+	background-color:#B09F6F;
+	color: white;
+	height: 18px;
+}
+.Citem {
+	padding: 2px 5px 2px 5px;
+	color: black;
+}
+.floatcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newSelected {
+	background-color: #DFD0BF;	
+}
+.dropbtn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdown {
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+#fundlist {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#manualdata {
+    margin-left: 15px;
+}
+#statements {
+    margin-left: 15px;
+}
+.report {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.reportbanner {
+    display:block;
+    height: 20px;
+    background-color: darkgray;
+    padding: 5px 5px 5px 5px;
+}
+.guessed {
+    font-style: italic;
+    color: lightgray;
+}
+.searchbox {
+    margin-left: 5px;
+    width: 100px;
+}
+.r {
+    margin-left: 50px;
+}
+
+
